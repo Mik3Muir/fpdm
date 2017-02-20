@@ -1,0 +1,22 @@
+{
+  "name": "hwdmedia/fpdm",
+  "description": "FPDM wrapper",
+  "license": "FPDF",
+  "type": "library",
+  "homepage": "https://github.com/hwdmedia/fpdm",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FPDM\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hwdmedia/fpdm"
+    }
+  ]
+}
